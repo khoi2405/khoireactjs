@@ -1,0 +1,68 @@
+.login-background{
+    height: 100vh;
+  background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+    .login-container{
+        padding: 15px;
+        width: 400px;
+        height: 50%;
+        margin: 0 auto;
+        border-radius: 10px;
+        background: white;
+        .login-center{
+            padding: 10px;
+            .text-login{
+                    text-align: center;
+                    padding: 10px;
+                    font-size: 25px;
+                    font-weight: 600;
+                
+            }
+            .login-input{
+                margin: 7px 0;
+            }
+            .btn-login{
+                color:white;    
+
+                background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+                outline: none;
+                width: 100%;
+                margin: 10px 0;
+                height: 28px;
+                border: none;
+                border-radius: 20px;
+            }
+            .forgot-password{
+                font-size: 12px;
+            }
+            .Logo-login{
+                justify-content: center;
+                margin-top: 10px;
+                text-align: center;
+                display: flex;
+                .google{
+                    color: white;
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    height: 50px;
+                    border-radius: 50%;
+                    background: #d45555;
+                    font-size: 35px;
+                    width: 50px;
+                    margin-right: 20px;
+                }
+                .facebook{
+                    color: white;
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    height: 50px;
+                    border-radius: 50%;
+                    background: #307aaf;
+                    font-size: 35px;
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
