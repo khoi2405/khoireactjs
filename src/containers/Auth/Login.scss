@@ -2,12 +2,17 @@
     height: 100vh;
   background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
     .login-container{
-        padding: 15px;
-        width: 400px;
-        height: 50%;
-        margin: 0 auto;
+        
+        width: 300px;
+        position: absolute;
         border-radius: 10px;
         background: white;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 450px;
         .login-center{
             padding: 10px;
             .text-login{
@@ -19,6 +24,16 @@
             }
             .login-input{
                 margin: 7px 0;
+                .custom-input{
+                    position: relative;
+                    i{
+                        position: absolute;
+                        right: 5px;
+                        top: 10px;
+                        cursor: pointer;
+                    }
+
+                }
             }
             .btn-login{
                 color:white;    
@@ -36,7 +51,7 @@
             }
             .Logo-login{
                 justify-content: center;
-                margin-top: 10px;
+                margin-top: 25px;
                 text-align: center;
                 display: flex;
                 .google{
